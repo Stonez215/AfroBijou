@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Afro Bijou Jewelry</title>
+<meta name="description" content="Afro Bijou Jewelry — handcrafted gold and silver by Papa Gueye. Miami, by appointment. Full collection coming soon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --black:#0b0907;
+    --ink:#15110d;
+    --gold:#d4af37;
+    --gold-soft:#e8cf7a;
+    --burgundy:#6b1d2a;
+    --text:#efe6d2;
+    --muted:#b9ab8c;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    background:
+      radial-gradient(ellipse at 50% 0%, rgba(107,29,42,.55) 0%, rgba(11,9,7,0) 60%),
+      var(--black);
+    color:var(--text);
+    font-family:'Inter',system-ui,sans-serif;
+    font-weight:300;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+  }
+  .band{
+    height:14px;
+    background:
+      repeating-linear-gradient(45deg, var(--gold) 0 6px, transparent 6px 12px),
+      repeating-linear-gradient(-45deg, var(--burgundy) 0 6px, transparent 6px 12px);
+    opacity:.85;
+  }
+  main{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:56px 16px;
+    text-align:center;
+  }
+  .card{max-width:640px}
+  .mark{
+    width:64px;height:64px;margin:0 auto 28px;
+    border:1px solid var(--gold);
+    transform:rotate(45deg);
+    display:flex;align-items:center;justify-content:center;
+  }
+  .mark span{
+    transform:rotate(-45deg);
+    font-family:'Cormorant Garamond',serif;
+    font-weight:600;
+    color:var(--gold);
+    font-size:22px;
+    letter-spacing:.04em;
+  }
+  .eyebrow{
+    text-transform:uppercase;
+    letter-spacing:.32em;
+    font-size:12px;
+    color:var(--gold-soft);
+    margin-bottom:18px;
+  }
+  h1{
+    font-family:'Cormorant Garamond',serif;
+    font-weight:400;
+    font-size:clamp(44px,9vw,76px);
+    line-height:1;
+    color:var(--gold);
+    letter-spacing:.02em;
+  }
+  h1 em{font-style:italic;color:var(--text)}
+  .rule{
+    width:120px;height:1px;margin:30px auto;
+    background:linear-gradient(90deg,transparent,var(--gold),transparent);
+  }
+  p.lede{
+    font-family:'Cormorant Garamond',serif;
+    font-size:clamp(20px,3.6vw,24px);
+    line-height:1.5;
+    color:var(--text);
+  }
+  p.body{
+    margin-top:18px;
+    font-size:15px;
+    line-height:1.75;
+    color:var(--muted);
+  }
+  .soon{
+    display:inline-block;
+    margin-top:36px;
+    padding:12px 28px;
+    border:1px solid var(--gold);
+    color:var(--gold);
+    text-transform:uppercase;
+    letter-spacing:.28em;
+    font-size:12px;
+    font-weight:500;
+  }
+  .details{
+    margin-top:28px;
+    font-size:13px;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:var(--muted);
+  }
+  .details b{color:var(--gold-soft);font-weight:400}
+  footer{
+    text-align:center;
+    padding:22px 16px;
+    font-size:12px;
+    color:#7d7260;
+    letter-spacing:.08em;
+  }
+</style>
+</head>
+<body>
+  <div class="band"></div>
+  <main>
+    <div class="card">
+      <div class="mark"><span>AB</span></div>
+      <div class="eyebrow">Fine Handcrafted Jewelry</div>
+      <h1>Afro <em>Bijou</em></h1>
+      <div class="rule"></div>
+      <p class="lede">Gold and silver, shaped by hand by Papa Gueye.</p>
+      <p class="body">More than fifty years at the bench, carrying on a long ancestral line of Senegalese gold and iron smiths, with mastery of African, Indian and global styles.</p>
+      <div class="soon">Collection Coming Soon</div>
+      <div class="details"><b>Miami</b> &nbsp;·&nbsp; By Appointment &nbsp;·&nbsp; <b>Custom Pieces</b></div>
+    </div>
+  </main>
+  <footer>&copy; 2026 Afro Bijou Jewelry</footer>
+  <div class="band"></div>
+</body>
+</html>
